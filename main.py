@@ -110,7 +110,7 @@ def print_banner():
  ================================================================================
                                 ║║║║║║║║║║║║║║║║ 
                                ║╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚║
-                               ║╚ SECURE VAULT ╚║
+                               ║╚ PASSWORD GEN ╚║
                                ║╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚╚║
                                 ║║║║║║║║║║║║║║║║ 
 ================================================================================                                                         
@@ -119,7 +119,7 @@ def print_banner():
     print(banner)
 
 # Main program
-#print_banner()
+print_banner()
 
 print(f"{COLORS['BOLD']}Password Generator Configuration{COLORS['END']}")
 print(f"{COLORS['CYAN']}{'='*40}{COLORS['END']}")
